@@ -1,0 +1,57 @@
+input[type=text] {
+    border-radius: 25px;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    margin: 0;height: 7vh;
+    border: 0px;-ms-transform: translateY(-50%);
+transform: translateY(20%);
+}
+input[type=submit] {
+    border-radius: 25px;
+    width: 10%;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    margin: 0;height: 7vh;
+    border: 0px;-ms-transform: translateY(-50%);
+transform: translateY(20%);
+}
+body{background: linear-gradient(to right top, #65dfc9, #6cdbeb);overflow: hidden;}
+.glass {position: absolute;bottom: 0px;left:0px;
+background: white;
+height: 10vh;
+width: 100%;
+background: linear-gradient(
+to right bottom,
+rgba(255, 255, 255, 0.7),
+rgba(255, 255, 255, 0.3)
+);
+backdrop-filter: blur(2rem);
+
+}
+.circle1,
+.circle2 {
+background: white;
+background: linear-gradient(
+to right bottom,
+rgba(255, 255, 255, 0.8),
+rgba(255, 255, 255, 0.3)
+);
+height: 20rem;
+width: 20rem;
+position: absolute;
+border-radius: 50%;
+}
+
+.circle1 {
+top: 5%;
+right: 15%;
+}
+.circle2 {
+bottom: 5%;
+left: 10%;
+}
